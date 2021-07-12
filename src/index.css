@@ -30,14 +30,40 @@ body {
 }
 
 .text-over-image {
-  position: relative;
-  top: -150px;
-  right: -90px;
-
   color: black;
   font-size: 22px;
   font-weight: bold;
   text-align: center;
+}
+
+.first_model {
+  position: relative;
+  top: -150px;
+  right: -90px;
+}
+
+.second_model {
+  position: relative;
+  top: -120px;
+  right: 60px;
+}
+
+.third_model {
+  position: relative;
+  top: -105px;
+  right: -70px;
+}
+
+.fourth_model,
+.fifth_model,
+.sixth_model {
+  position: relative;
+  top: -110px;
+  right: 0px;
+}
+
+.sixth_model {
+  color: #ffffff;
 }
 
 #main-container {
@@ -81,4 +107,24 @@ body {
 
 #take-screenshot:hover {
   transform: scale(0.9);
+}
+
+.select-label-container {
+  display: flex;
+  margin-top: 5px;
+}
+
+.select-label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+#eidiya-number-select {
+  width: 20vw;
+  font-family: "Tajawal", sans-serif;
+  font-size: 20px;
+  border-radius: 15px;
 }
