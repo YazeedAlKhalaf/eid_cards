@@ -8,12 +8,24 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Eid Cards",
+      template: "./src/index.html",
     }),
   ],
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
+    ],
   },
 };
