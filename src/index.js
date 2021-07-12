@@ -1,9 +1,9 @@
-import eidiya1 from "./eidiyat/1.png";
-import eidiya2 from "./eidiyat/2.png";
-import eidiya3 from "./eidiyat/3.png";
-import eidiya4 from "./eidiyat/4.png";
-import eidiya5 from "./eidiyat/5.png";
-import eidiya6 from "./eidiyat/6.png";
+import eidiya1 from "./assets/eidiyat/1.png";
+import eidiya2 from "./assets/eidiyat/2.png";
+import eidiya3 from "./assets/eidiyat/3.png";
+import eidiya4 from "./assets/eidiyat/4.png";
+import eidiya5 from "./assets/eidiyat/5.png";
+import eidiya6 from "./assets/eidiyat/6.png";
 
 import "./index.css";
 
