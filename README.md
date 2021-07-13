@@ -1,5 +1,7 @@
 # Eid Cards 🎊
 
+![eid cards header](https://raw.githubusercontent.com/YazeedAlKhalaf/eid_cards/main/readme_assets/eid_cards_header.png)
+
 ## Install ⬇
 
 To run this app you need node.js installed on your machine.
